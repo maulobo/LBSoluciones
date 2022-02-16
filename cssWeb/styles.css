@@ -1,0 +1,21 @@
+main {
+  display: grid;
+  height: 100vh;
+  grid-gap: 10px;
+  background-color: gray;
+  grid-template-areas: "header header header" "banner banner banner" "contenido contenido aside" "footer footer footer"; }
+
+.index-header {
+  grid-area: header; }
+
+.index-banner {
+  grid-area: banner; }
+
+.index-aside {
+  grid-area: aside; }
+
+.index-div {
+  grid-area: contenido; }
+
+.index-footer {
+  grid-area: footer; }
