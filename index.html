@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!--estilos y boostrap-->
-    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="./css/animate.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/classy-nav.css">
     <link rel="stylesheet" href="css/font-awesome.min.css">
@@ -49,42 +49,46 @@
        </header> 
         <div class="index-banner">
             <div class="banner-info">
-                <h2>LB SOLUCIONES Constructivas</h2>
-                <P>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quod quibusdam sint, in nihil perspiciatis laborum nulla eveniet consectetur voluptates molestias earum iusto voluptate amet eaque? Quia vitae reprehenderit soluta maiores?</P>
+                <h2 class="wow fadeIn">LB SOLUCIONES Constructivas</h2>
+                <P class="wow slideInLeft">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quod quibusdam sint, in nihil perspiciatis laborum nulla eveniet consectetur voluptates molestias earum iusto voluptate amet eaque? Quia vitae reprehenderit soluta maiores?</P>
             </div>
         </div>
-        <aside class='index-aside'>   
+        <aside class='index-aside wow fadeIn'>   
             <div class="index-aside-int">
                 <h3>Novedades</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum incidunt dolorem officia, sed impedit dolore molestiae voluptates explicabo provident sequi optio, quas ratione quibusdam sint rem quidem, nemo placeat qui!</p>
             </div>
         </aside>
-        <div class=index-div>
-                <h3>Servicios</h3>
+        <div class="index-div wow fadeIn">
+                <h3 >Servicios</h3>
                 <p>Nos dedicamos en gran medida a proyectos singulares dentro de nuestra profesión, aportando a nuestro trabajo el respeto por el entorno, la historia de los edificios y el interés por la tecnología constructiva.</p>
                 <button>+ info</button>
         </div>
-        <div class="contenido3">
+        <div class="contenido3 wow fadeIn">
             <div class="index-trabRea">
-                <h2>Trabajos realizdos</h2>
+                <h3>Trabajos realizdos</h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic eos dolorum rerum odit cumque eum, corporis accusamus aperiam. Libero harum beatae reiciendis. Eos facere reprehenderit veniam corporis iusto minus. Error?</p>
                 <button>+info</button>
             </div>
         </div>
-        <div class="contenido2">
+        <div class="contenido2 wow fadeIn">
             <h3>Productos</h3>
             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestias amet excepturi quasi. Nihil distinctio natus iusto vel. Laboriosam similique ad rerum id earum! A quia adipisci delectus. Nulla, possimus cupiditate.</p>
             <button>+info</button>
         </div>
-        <div class="contenido4">
+        <div class="contenido4 wow fadeIn">
             <div class="cont4-div">
-                <h3>Quienes somos</h3>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestias amet excepturi quasi. Nihil distinctio natus iusto vel. Laboriosam similique ad rerum id earum! A quia adipisci delectus. Nulla, possimus cupiditate.</p>
+                <h3 class="wow zoomIn">Quienes somos</h3>
+                <p class="zoomIn">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestias amet excepturi quasi. Nihil distinctio natus iusto vel. Laboriosam similique ad rerum id earum! A quia adipisci delectus. Nulla, possimus cupiditate.</p>
                 <button>Contactate</button>
             </div>
         </div>
     </main>    
     <footer class='index-footer'>footer</footer>
     <script src="./js/index_dom.js" type="module"></script>
+    <script src="js/wow.min.js"></script>
+    <script>
+    new WOW().init();
+    </script>
 </body>
 </html>

@@ -155,7 +155,7 @@ main {
   grid-gap: 10px;
   grid-template-areas: "header header header" "banner banner banner" "contenido contenido aside" "contenido3 contenido3 contenido3" "contenido2 contenido2 contenido2" "contenido4 contenido4 contenido4" "footer footer footer";
   grid-template-columns: 2fr 1fr 2fr;
-  grid-template-rows: 1fr  12fr 6fr 9fr 6fr 9fr 1fr; }
+  grid-template-rows: 1fr  14fr 6fr 9fr 6fr 9fr 1fr; }
 
 .banner-info {
   background-color: black;
@@ -265,7 +265,7 @@ main {
   flex-direction: column;
   justify-content: center;
   align-items: flex-start; }
-  .index-trabRea p, .index-trabRea h2, .index-trabRea button {
+  .index-trabRea p, .index-trabRea h3, .index-trabRea button {
     margin-left: 30px; }
   .index-trabRea button {
     background-color: #fddc1f;
